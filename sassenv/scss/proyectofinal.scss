@@ -1,0 +1,338 @@
+$ancho: 150px;
+$bordes_imagenes: 50%;
+$altura: 440px;
+
+
+
+h1 {
+  color: rgb(182, 57, 182);
+}
+
+    body {
+      
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        background-color: darkgrey;
+      
+
+}
+
+/*GRID */
+
+  #gridPrincipal {
+    display: grid;
+    grid-template-areas: 
+     "header header"
+     "main main"
+     "footer footer"; 
+     grid-template-rows: 1fr 6fr 1/2fr;
+  }
+  
+  header {
+    
+    grid-area: header;
+
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  #gridGalerias {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside section";
+    grid-template-rows: 1/2fr ;
+    grid-template-columns: 3fr 1/2fr;
+    }
+
+  .Galeria1 {
+    
+    grid-area: header;
+  }
+
+  .Galeria2 {
+    grid-area: aside
+  }
+  
+  .Galeria3 {
+    grid-area: section;
+    }
+
+    .CarritoCompras {
+      margin: 150px 400px auto;
+    }
+
+
+
+
+    /* pag principal*/
+
+  .IngresoPagPrincipal {
+    display: flex;
+    flex-wrap: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: baseline;
+    
+    font-size: 12px;
+   margin-top: auto;
+   margin-right: auto;
+   margin-left: 550px;
+   margin-bottom: 5px;
+  }
+
+  .IngresaAca {
+    font-weight: bolder;
+  }
+
+    .titulo1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: baseline;
+  justify-content: space-between;
+  margin-left: 220px;
+  margin-right: 220px;
+  transition: all 1s;
+
+  }
+
+  .form-control {
+    width: 20%;
+  }
+
+  .TransformacionBanner {
+    transition: all 3s;
+    width: 100%;
+    height: 300px;
+  }
+
+  .TransformacionBanner:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+  .logoresinaPrincipal {
+    border-radius: 50%;
+  }
+
+    .logoresina {
+      border-radius: 50%;
+      margin-left: 315px;
+    
+         }
+  
+
+    .titulo2 {
+      position: relative;
+      top: -20px;
+      left: 500px;
+      font-size: 50px;
+      display: inline;
+  }
+
+    .Busqueda {
+      display: flex;
+      flex-direction: row;
+      
+      justify-content: baseline;
+      margin: 10px;
+    }
+
+    .input-group {
+      margin: 5px;
+    }
+    
+    /* CARRO COMPRAS */
+
+    .carrito1 {
+      margin: auto 50px 500px 300px;
+    }
+
+    .botoncompra {
+      width: 150px;
+      margin: 4px;
+    }
+
+    .preciocarrito {
+      margin: 4px;
+    }
+
+
+
+/* paginas hombre/mujer/niños */
+
+    
+.Articulo1 {
+display: flex;
+flex-direction: column;
+border-bottom: 80px;
+}
+
+
+.ropa {
+  
+  border: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  line-height: 1.5;
+  height: 100%;
+  padding-bottom: 100%;
+  margin-bottom: 100%;
+}
+
+
+
+
+ /* footer */
+    .footer {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      justify-content: center;
+      
+      }
+
+    
+  li {
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: black;
+    text-align: center;
+    
+    
+  }
+
+    /* formulario ingreso*/
+
+  .logoresinaingreso {
+    margin-left: 265px;
+    border-radius: 50%;
+  }
+
+  .FormIngreso {
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 500px;
+    padding: 50px;
+    
+    border: solid cornsilk;
+  }
+
+   input[type=text], select, textarea {
+      width: auto;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      resize: both;
+
+    }
+
+    input[type=email] {
+      width: 20%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      resize: both;
+    }
+
+    input[type=password] {
+      width: 20%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      resize: both;
+    }
+
+    input[type=button] {
+      width: 20%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      background-color:whitesmoke;
+      transition: all 1s;
+    }
+
+    input[type=button]:hover {
+      background-color: mediumorchid;
+    }
+
+    input[type=search] {
+      width: 13%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      resize: both;
+      
+    }
+
+    input[type=submit] {
+      width: 120px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      background-color:whitesmoke;
+      transition: all 1s;
+
+     }
+
+     input[type=submit]:hover {
+       background-color: mediumorchid;
+     }
+
+    .BotonesForm {
+      padding-left: 200px;
+    }
+
+
+    /* pag mujer */
+.GaleriaMujer {
+  @extend .GaleriaHombre;
+   }
+
+  /* pag niños */
+.GaleriaNiños {
+  @extend .GaleriaHombre;
+ }
+    
+   /* PAG HOMBRE */
+
+    .GaleriaHombre {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      }
+
+    .GaleriaFotos {
+      border: black;
+      border: solid ;
+      border-width: thin;
+      margin-bottom: 80px;
+      padding-bottom: 80px;
+      
+    }
+    
+    
+    /*pag nueva temporada*/
+
+    .OperacionSass {
+      width: $ancho+70;
+      height: $altura/2;
+      border-radius: ($bordes_imagenes/2)-20;
+      margin: 10px;
+    }
+
+    .ntemp {
+      margin: 20px;
+      margin-left: 70px;
+      }
