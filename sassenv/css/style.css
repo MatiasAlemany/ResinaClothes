@@ -2,20 +2,18 @@
 h1 {
   color: #b639b6; }
 
-.fondo {
-  background-color: darkgrey; }
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
-  background-color: darkgrey; }
+  background-color: #dd6b5c; }
+
+.n-temp {
+  background-color: #dd6b5c; }
 
 /*GRID */
 #gridPrincipal {
   display: grid;
-  grid-template-areas: "header header"
- "main main"
- "footer footer";
+  grid-template-areas: "header header" "main main" "footer footer";
   grid-template-rows: 1fr 6fr 1/2fr; }
 
 header {
@@ -29,8 +27,7 @@ main {
 
 #gridGalerias {
   display: grid;
-  grid-template-areas: "header header"
- "aside section";
+  grid-template-areas: "header header" "aside section";
   grid-template-rows: 1/2fr;
   grid-template-columns: 3fr 1/2fr; }
 
@@ -126,14 +123,12 @@ main {
 
 .ropa {
   border: blue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   line-height: 1.5;
   height: 100%;
   padding-bottom: 100%;
-  margin-bottom: 100%;
-  font-size: 14px;
-  position: fixed; }
+  margin-bottom: 100%; }
 
 /* footer */
 .footer {
@@ -141,12 +136,6 @@ main {
   flex-direction: row;
   margin-top: 20px;
   justify-content: center; }
-
-  .contacto {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-  }
 
 li {
   display: flex;
@@ -224,10 +213,6 @@ input[type=submit]:hover {
 /* pag mujer */
 /* pag niños */
 /* PAG HOMBRE */
-
- a {
-   color: black; }
-
 .GaleriaHombre, .GaleriaMujer, .GaleriaNiños {
   display: flex;
   flex-direction: row;
