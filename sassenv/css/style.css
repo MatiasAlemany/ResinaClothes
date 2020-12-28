@@ -1,11 +1,11 @@
 @charset "UTF-8";
 h1 {
-  color: #b639b6; }
+  color: #556E9B; }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
-  background-color: #dd6b5c; }
+  background-image: linear-gradient(to right bottom, #ff6a00, #ff512f, #ff364a, #fc1c62, #ee0979); }
 
 .n-temp {
   background-color: #dd6b5c; }
@@ -13,7 +13,9 @@ body {
 /*GRID */
 #gridPrincipal {
   display: grid;
-  grid-template-areas: "header header" "main main" "footer footer";
+  grid-template-areas: "header header"
+ "main main"
+ "footer footer";
   grid-template-rows: 1fr 6fr 1/2fr; }
 
 header {
@@ -27,7 +29,8 @@ main {
 
 #gridGalerias {
   display: grid;
-  grid-template-areas: "header header" "aside section";
+  grid-template-areas: "header header"
+ "aside section";
   grid-template-rows: 1/2fr;
   grid-template-columns: 3fr 1/2fr; }
 
@@ -122,10 +125,10 @@ main {
   border-bottom: 80px; }
 
 .ropa {
-  border: blue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
   color: white;
-  line-height: 1.5;
   height: 100%;
   padding-bottom: 100%;
   margin-bottom: 100%; }
@@ -225,6 +228,10 @@ input[type=submit]:hover {
   border-width: thin;
   margin-bottom: 80px;
   padding-bottom: 80px; }
+
+  .contacto {
+    margin-left: 530px;
+  }
 
 /*pag nueva temporada*/
 .OperacionSass {
