@@ -5,7 +5,7 @@ h1 {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
-  background-image: linear-gradient(to right bottom, #ff6a00, #ff512f, #ff364a, #fc1c62, #ee0979); }
+  }
 
 .n-temp {
   background-color: #dd6b5c; }
@@ -128,7 +128,7 @@ main {
   
   font-family: 'Bebas Neue', cursive;
   font-size: 18px;
-  color: white;
+  color:#556E9B;
   height: 100%;
   padding-bottom: 100%;
   margin-bottom: 100%; }
